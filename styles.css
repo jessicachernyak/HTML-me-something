@@ -1,0 +1,47 @@
+body{
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(12, 1fr);
+    grid-template-rows: 35rem;
+    margin: 20px;
+}
+
+header {
+    grid-area: 1 / 1 / 2 / 13;
+    background-image: url("https://www.fitness.com/images/new/banner-1.jpg");
+    background-size: cover;
+    background-repeat: none;
+}
+
+main {
+    max-width: 100%;
+    height: auto;
+    grid-area: 2 / 2 / 5 / 12;
+    grid-template: repeat(9, 1fr) / repeat(2, 1fr);
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+main p {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    font-family: "Helvetica-light", "Times New Roman", serif;
+}
+
+video {
+    margin-top: 80px;
+}
+
+footer {
+    display: flex;
+    grid-area: 5 / 1 / 6 / 13;
+    justify-content: space-between;
+}
+
+.banner {
+    width: 100%;
+}
