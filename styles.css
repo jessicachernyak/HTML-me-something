@@ -12,6 +12,10 @@ header {
     background-repeat: none;
 }
 
+#header-text {
+font-family: "Helvetica-Bold", sans-serif;
+}
+
 main {
     max-width: 100%;
     height: auto;
