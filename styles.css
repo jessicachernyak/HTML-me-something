@@ -32,7 +32,7 @@ main p {
     font-family: "Helvetica-light", "Times New Roman", serif;
 }
 
-video {
+iframe {
     margin-top: 80px;
 }
 
@@ -40,6 +40,8 @@ footer {
     display: flex;
     grid-area: 5 / 1 / 6 / 13;
     justify-content: space-between;
+    margin-top: 60px;
+    font-size: 12px;
 }
 
 .banner {
